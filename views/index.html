@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SQS Firehose Demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.ably.io/lib/ably.min-1.js"></script>
+    <script src="subscribe.js"></script>
+  </head>
+  <body>
+    <h1>SQS Demo</h1>
+    <div>
+      <button id="generateTxns" onclick="generateTxns()">
+        Generate Transactions
+      </button>
+    </div>
+    <div>
+      <ol id="txns"></ol>
+    </div>
+  </body>
+</html>
